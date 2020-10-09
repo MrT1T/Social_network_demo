@@ -26,22 +26,22 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto, savePro
 
     return (
         <div className={s.container}>
-                <div className={s.avatar}>
-                    {profile.photos.large !== null ? <img src={profile.photos.large}/> : <img src={UserPhoto}/>}
-                    {isOwner && <div className={s.avatarFile}>
-                        <label><input className={s.avatarFileInput}
-                                      type="file" name="file"onChange={onMainPhotoSelected}/>> Change foto </label>
-                    </div>}
+            <div className={s.avatar}>
+                {profile.photos.large !== null ? <img src={profile.photos.large}/> : <img src={UserPhoto}/>}
+                {isOwner && <div className={s.avatarFile}>
+                    <label><input className={s.avatarFileInput}
+                                  type="file" name="file" onChange={onMainPhotoSelected}/>> Change foto </label>
+                </div>}
 
-                    <div className={s.status} ><ProfileStatus status={status} updateStatus={updateStatus}/></div>
-                </div>
+                <div className={s.status}><ProfileStatus status={status} updateStatus={updateStatus}/></div>
+            </div>
             <div className={s.information}>
-                    {editMode
-                        ? <ProfileDataForm initialValues={profile} profile={profile} onSubmit={onSubmit}/>
-                        : <ProfileData profile={profile} isOwner={isOwner} goToEditMode={() => {
-                            setEditMode(true)
-                        }}/>
-                    }
+                {editMode
+                    ? <ProfileDataForm initialValues={profile} profile={profile} onSubmit={onSubmit}/>
+                    : <ProfileData profile={profile} isOwner={isOwner} goToEditMode={() => {
+                        setEditMode(true)
+                    }}/>
+                }
             </div>
         </div>
     )
