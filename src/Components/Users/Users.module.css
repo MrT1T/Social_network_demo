@@ -1,0 +1,28 @@
+.userPhoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+.users div {
+    display: inline-block;
+}
+
+.usersItem div{
+    display: block;
+
+
+}
+.usersItem{
+    margin: 40px 0 0 40px;
+    background: rgba(21,26,48,1);
+    width:100px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.buttonFollow button{
+    background: rgba(6, 118, 237, 1);
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+}

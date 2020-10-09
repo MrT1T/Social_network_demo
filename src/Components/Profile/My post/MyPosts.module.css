@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    /*grid-template-rows: 1fr 1fr ;*/
+    grid-template-columns: 400px 1fr;
+    grid-gap: 2vw;
+    color: silver;
+}
+
+
+.posts{
+    text-align: left;
+    margin: 40px 0 0 0;
+    background: rgba(21,26,48,1);
+    width:430px;
+    padding: 20px 0 0 40px ;
+    border-radius: 20px;
+}
+.posts button{
+
+}
+.member img {
+    border-radius: 20px;
+    margin: 40px;
+}
+.buttonAdd{
+    background: rgba(6, 118, 237, 1);
+    color: white;
+    border-radius: 20px;
+}

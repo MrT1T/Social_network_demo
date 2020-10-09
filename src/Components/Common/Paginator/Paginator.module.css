@@ -1,0 +1,22 @@
+.paginator{
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px
+}
+.pageNumber{
+    padding: 2px;
+    border: 1px solid grey;
+}
+
+.selectPage {
+    font-weight: bold;
+    border: 2px solid grey;
+}
+
+.paginator button{
+    background: rgba(6, 118, 237, 1);
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+}

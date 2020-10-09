@@ -1,0 +1,42 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems{
+    color: #dbc215;
+    margin: 40px 0 0 40px;
+    background: rgba(21,26,48,1);
+    width:100px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.dialogsItems .dialog img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.dialogsItems a{
+    color: gold;
+}
+
+.messages{
+    margin: 40px 0 0 40px;
+    background: rgba(21,26,48,1);
+    width:300px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.messages .message{
+
+}
+.avatar img{
+    width: 80px;
+    height: 80px;
+}
+.buttonAdd{
+    background: rgba(6, 118, 237, 1);
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+}

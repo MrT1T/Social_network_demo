@@ -1,0 +1,72 @@
+.head{
+
+
+   }
+.avatarFile{
+
+}
+
+.container {
+    display: grid;
+    /*grid-template-rows: 1fr 1fr ;*/
+    grid-template-columns: 400px 1fr;
+    grid-gap: 2vw;
+    color: silver;
+}
+.avatar{
+    margin: 40px 0 0 40px;
+    background: rgba(21,26,48,1);
+    width:240px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.avatar img{
+    border-radius: 40px;
+    max-width: 200px;
+    padding: 20px;
+
+}
+.contact{
+    padding-left: 40px;
+}
+.profileName{
+
+}
+.information{
+    text-align: left;
+    margin: 40px 0 0 0;
+    background: rgba(21,26,48,1);
+    width:400px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.avatarFile  {width:300px;}
+.avatarFileInput {display:none;}
+.avatarFile  label{
+    cursor:pointer;
+    background: rgba(6, 118, 237, 1);
+    border-radius:3px;
+    padding:10px 25px;
+    margin: 20px;
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    ;
+}
+.avatarFile label:hover{background: #04114e;}
+.status{
+    margin: 20px;
+}
+.buttonContainer {width:300px;}
+.buttonContainerInput{display:none;}
+.buttonContainer label{
+    cursor:pointer;
+    background: rgba(6, 118, 237, 1);
+    border-radius:3px;
+    padding:10px 25px;
+    margin: 20px 20px 0 170px;
+    color:white;
+    font-weight:bold;
+    text-align: center;
+}
+.buttonContainer label:hover{background: #04114e;}
